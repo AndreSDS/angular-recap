@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-bg: '#FBFEF4';
+	}
+
+	* {
+		font-family: "Montserrat", sans-serif;
+	}
+
+	body {
+		background-color: var(--color-bg);
+	}
+}
